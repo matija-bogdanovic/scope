@@ -9,6 +9,9 @@ body {
 body + .scrolldisabled {
    overflow: hidden;
 }
+.backgrounddd {
+   position: absolute;
+}
 .element-with-gradient {
    background-image: linear-gradient(to top left, transparent 0%, rgba(255, 255, 255, 0.38) 22%, transparent 100%);
    /* Additional styling for height and bottom position if needed */

@@ -116,8 +116,8 @@ function page() {
             <div>
                <Image src={buldings} alt={buldings}/>
             </div>
-            <div className='xsm:hidden lg:block row-start-1 xsm:mt-5 row-end-3 col-start-2 col-end-2'>
-               <Image src={gregandjim} alt={gregandjim}/>
+            <div className='xsm:hidden lg:block row-start-1 row-end-3 col-start-2 col-end-2'>
+               <Image width={620} height={513} src={gregandjim} alt={gregandjim}/>
             </div>
             <div className='flex flex-col items-start justify-center gap-7'>
                <h1 className='font-bold text-3xl'>Arrange a meeting with the team</h1>
@@ -133,7 +133,7 @@ function page() {
    <section className="font-['Aventa'] linear xsm:py-20 lg:py-40 bg-pitch-black">
       <div className='container flex flex-col items-center'>
          <span className='text-orange font-normal text-2xl mb-4'>Interested in Scope?</span>
-         <h1 className='font-bold text-4xl text-white'>Ready to start the conversation?</h1>
+         <h1 className='font-bold text-4xl text-white text-center'>Ready to start the conversation?</h1>
          <p className='text-center text-graytext xsm:mt-5 lg:mt-10'>Complete the form below and a member of our team will reach out to <br></br>learn more about your workplace needs.</p>
          <form className='w-full lg:grid lg:grid-cols-2 lg:grid-rows-2 xsm:flex xsm:flex-col gap-10 xsm:mt-10 lg:mt-20'>
             <div>

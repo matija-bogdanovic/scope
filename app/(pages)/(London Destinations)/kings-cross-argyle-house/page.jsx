@@ -1,6 +1,6 @@
 'use client'
+
 import Footer from '@/components/footer'
-import Navbar from '@/components/navbar'
 import { amsterdamcentrum, bone, cleaner, eventspace, fifty, fiftyfive, fiftyfour, fiftyone, fiftysix, fiftythree, fiftytwo, fortyeight, fortynine, fortyseven, individualimage, meetingrooms, parking, phonebooths, row2, seventeen, siho, sixteen, stockedkitchens, techserv, datee, dedicatedteam, fullyequipped, fullyfurnished, guestrecep, hundreds, itsupp, mail, mindspaceloc, monthlysub, ppboots, printing, registrationsystem, showers,  terrace, twentyfourseven, ultrafast, weekly, cutlery, customize, app, coffeesoda, cleaningserv, activationdeactivation, privateofficeindividual, fullfloorofficeindividual, individualdedicateddesk, meetingroomindividual } from '@/images/images'
 import Image from 'next/image'
 import Link from 'next/link'

@@ -23,7 +23,7 @@ function page() {
       <div className='container'>
         <Image height={335} width={1280} src={locationsheader} alt={locationsheader}/>
         <div className='lg:grid lg:grid-cols-2 lg:grid-rows-1 xsm:flex xsm:flex-col xsm:gap-5 lg:gap-x-10 lg:mt-40 xsm:mt-20'>
-          <Image src={locationscontent} className='h-full' height={700} width={661} alt={locationscontent}/>
+          <Image src={locationscontent} className='h-full w-full' height={700} width={661} alt={locationscontent}/>
             <div className='flex flex-col'>
               <div className='flex flex-col items-start justify-start gap-4'>
                 <h3 className="text-3xl font-bold">King’s Cross - Argyle House </h3>
@@ -32,12 +32,12 @@ function page() {
                 <Link href="/kings-cross-argyle-house" className='border border-orange py-3 px-10'>Enquire now</Link>
               </div>
             <div>
-              <Image src={ks} height={223} width={1024} className='w-full xsm:mt-10' alt={ks}/>
+                <Image src={ks} height={223} width={1024} className='w-full xsm:mt-10' alt={ks}/>
             </div>
           </div>
         </div>
         <div className='lg:grid lg:grid-cols-2 lg:grid-rows-1 xsm:flex xsm:flex-col xsm:gap-5 lg:gap-x-10 lg:mt-40 xsm:mt-20'>
-          <Image src={ksg} className='h-full' height={700} width={661} alt={ksg}/>
+          <Image src={ksg} className='h-full w-full' height={700} width={661} alt={ksg}/>
             <div className='lg:grid lg:grid-cols-1 lg:grid-rows-2 gap-4'>
               <div className='flex flex-col items-start justify-start gap-4'>
                 <h3 className="text-4xl font-bold">London | Covent Garden</h3>
@@ -51,7 +51,7 @@ function page() {
           </div>
         </div>
         <div className='lg:grid lg:grid-cols-2 lg:grid-rows-1 xsm:flex xsm:flex-col xsm:gap-5 lg:gap-x-10 lg:mt-40 xsm:mt-20'>
-          <Image src={lsk} className='h-full' height={548} width={661} alt={lsk}/>
+          <Image src={lsk} className='h-full w-full' height={548} width={661} alt={lsk}/>
             <div className='flex flex-col gap-10'>
               <div className='flex flex-col items-start justify-start gap-4'>
                 <h3 className="text-4xl font-bold">London | King's Cross</h3>
@@ -65,7 +65,7 @@ function page() {
           </div>
         </div>
         <div className='lg:grid lg:grid-cols-2 lg:grid-rows-1 xsm:flex xsm:flex-col xsm:gap-5 lg:gap-x-10 lg:mt-40 xsm:mt-20'>
-          <Image src={soho} className='h-full' height={548} width={661} alt={soho}/>
+          <Image src={soho} className='h-full w-full' height={548} width={661} alt={soho}/>
             <div className='flex flex-col gap-5 justify-between'>
               <div className='flex flex-col items-start justify-start gap-4'>
                 <h3 className="text-4xl font-bold">London | Soho</h3>
@@ -78,7 +78,7 @@ function page() {
           </div>
         </div>
         <div className='lg:grid lg:grid-cols-2 lg:grid-rows-1 xsm:flex xsm:flex-col xsm:gap-5 lg:gap-x-10 lg:mt-40 xsm:mt-20'>
-          <Image src={amstedam} className='h-full' height={548} width={661} alt={amstedam}/>
+          <Image src={amstedam} className='h-full w-full' height={548} width={661} alt={amstedam}/>
             <div className='flex flex-col gap-5 justify-between'>
               <div className='flex flex-col items-start justify-start gap-4'>
                 <h3 className="text-4xl font-bold">Amsterdam | The Centrum</h3>

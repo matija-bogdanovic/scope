@@ -127,7 +127,7 @@ body + .scrolldisabled {
     background-position: right;
     background-size: contain;
 }
-.react-multi-carousel-track {
+.react-multi-carousel-list {
    overflow: visible !important
 }
 @media screen and (max-width: 1048px){

@@ -382,7 +382,7 @@ function page() {
                 arrows={false}
                 renderButtonGroupOutside={true}
                 customButtonGroup={<ButtonGroup1 />}
-                containerClass="react-multi-carousel-track"
+                containerClass="react-multi-carousel-list"
               >
                 <Image
                   width={554}

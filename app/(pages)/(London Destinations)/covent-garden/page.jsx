@@ -379,7 +379,7 @@ function page() {
                 renderDotsOutside={true}
                 customDot={<CustomDot />}
                 dotListClass="react-multi-carousel-dot-list1"
-                containerClass="react-multi-carousel-track"
+                containerClass="react-multi-carousel-list"
                 arrows={false}
                 renderButtonGroupOutside={true}
                 customButtonGroup={<ButtonGroup1 />}

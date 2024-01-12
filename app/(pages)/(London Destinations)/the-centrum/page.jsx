@@ -377,7 +377,7 @@ function page() {
                 dotListClass="react-multi-carousel-dot-list1"
                 arrows={false}
                 renderButtonGroupOutside={true}
-                containerClass="react-multi-carousel-track"
+                containerClass="react-multi-carousel-list"
                 customButtonGroup={<ButtonGroup1 />}
               >
                 <Image

@@ -806,7 +806,7 @@ export const Slider = () => {
           // renderDotsOutside={true}
           // dotListClass='react-multi-carousel-dot-list2'
           containerClass='react-multi-carousel-list overflow-visible xsm:ml-10 grid-item order-2 md:w-2/4 lg:w-2/4 xsm:w-3/4'
-          sliderClass=''
+          sliderClass='overflow-visible'
         >
           <div className="font-['Aventa'] border border-gray xsm:p-5 lg:p-10 h-full"><Image width={67} alt={vg} src={vg}/>
             <p className='mt-4 lg:w-ch27 xsm:w-full'>“The service at scope is second to none. As long as we continue to grow we will grow with scope.”</p>

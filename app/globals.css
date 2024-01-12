@@ -127,6 +127,9 @@ body + .scrolldisabled {
     background-position: right;
     background-size: contain;
 }
+.react-multi-carousel-track {
+   overflow: visible !important
+}
 @media screen and (max-width: 1048px){
    .container {
       max-width: 90%;
